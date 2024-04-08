@@ -1,5 +1,5 @@
 #include "monty.h"
-#include "ctype.h"
+#include <ctype.h>
 /**
  * main - Entry point of the program
  * @argc: Number of command-line arguments
