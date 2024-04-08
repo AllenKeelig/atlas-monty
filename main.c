@@ -1,4 +1,4 @@
-#include "hash_tables.h"
+#include "monty.h"
 
 /**
  * main - Entry point of the program
