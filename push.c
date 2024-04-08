@@ -1,4 +1,4 @@
-#include "hash_tables.h"
+#include "monty.h"
 
 /**
  * push - Pushes an element onto the stack.
