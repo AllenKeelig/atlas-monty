@@ -1,5 +1,4 @@
 #include "monty.h"
-#include <ctype.h>
 /**
  * main - Entry point of the program
  * @argc: Number of command-line arguments
@@ -11,7 +10,7 @@ int main(int argc, char *argv[])
 	FILE *file;
 	char *line = NULL;
 	size_t len = 0;
-	ssize_t read;
+	size_t read;
 	unsigned int line_number = 0;
 	stack_t *stack = NULL;
 
