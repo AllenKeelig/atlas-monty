@@ -21,6 +21,7 @@ void (*go(char *op_f, unsigned int l, stack_t **stak))(stack_t**, unsigned int)
 		{"nop", _nop},
 		{"pop", _pop},
 		{"swap", _swap},
+		{"add", _add},
 		{NULL, NULL}
 	};
 
