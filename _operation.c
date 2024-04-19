@@ -16,20 +16,20 @@ void (*go(char *op_f, unsigned int l, stack_t **stak))(stack_t**, unsigned int)
 	int count;
 
 	instruction_t operation[] = {
-		{"pall", get_pall},
-		{"add", get_add},
-		{"pint", get_pint},
-		{"swap", get_swap},
-		{"pop", get_pop},
-		{"sub", get_sub},
-		{"div", get_div},
-		{"mul", get_mul},
-		{"mod", get_mod},
-		{"nop", get_nop},
-		{"rotl", get_rotl},
-		{"rotr", get_rotr},
-		{"pchar", get_pchar},
-		{"pstr", get_pstr},
+		{"pall", _pall},
+		{"add", _add},
+		{"pint", _pint},
+		{"swap", _swap},
+		{"pop", _pop},
+		{"sub", _sub},
+		{"div", _div},
+		{"mul", _mul},
+		{"mod", _mod},
+		{"nop", _nop},
+		{"rotl", _rotl},
+		{"rotr", _rotr},
+		{"pchar", _pchar},
+		{"pstr", _pstr},
 		{NULL, NULL}
 	};
 
@@ -42,6 +42,6 @@ void (*go(char *op_f, unsigned int l, stack_t **stak))(stack_t**, unsigned int)
 	}
 	fprintf(stderr, "L%u: unknown instruction %s\n", l, op_f);
 	fclose(file);
-	get_free(*stak);
+	_free(*stak);
 	exit(EXIT_FAILURE);
 }
