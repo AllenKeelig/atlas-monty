@@ -9,7 +9,7 @@
  * 1. upon success, nothing
  * 2. upon fail, EXIT_FAILURE
  */
-void pall(stack_t **stack, unsigned int line_number)
+void _pall(stack_t **stack, unsigned int line_number)
 {
 	stack_t *current;
 
