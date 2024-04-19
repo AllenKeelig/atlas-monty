@@ -10,7 +10,7 @@
  * 1. upon success, nothing
  * 2. upon fail, EXIT_FAILURE
  */
-void get_push(stack_t **stack, unsigned int line_number, char *temp)
+void push(stack_t **stack, unsigned int line_number, char *temp)
 {
 
 	stack_t *new_top;
