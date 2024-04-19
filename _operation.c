@@ -19,6 +19,7 @@ void (*go(char *op_f, unsigned int l, stack_t **stak))(stack_t**, unsigned int)
 		{"pall", _pall},
 		{"pint", _pint},
 		{"nop", _nop},
+		{"pop", _pop},
 		{NULL, NULL}
 	};
 
