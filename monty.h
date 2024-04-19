@@ -5,10 +5,15 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <sys/stat.h>
+
 
 int main(int argc, char *argv[])
 void push(stack_t **stack, unsigned int line_number)
 void pall(stack_t **stack, unsigned int line_number)
+int _isdigit(char *str);
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
