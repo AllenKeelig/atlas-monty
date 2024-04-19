@@ -2,12 +2,12 @@
 
 /**
  * _free - Frees a stack
- * 
+ *
  * This function recursively frees all nodes in the stack linked list.
- * It traverses the stack and frees each node from the top of the stack to the bottom.
+ * It traverses the stack and frees each node from the top of the stack
  *
  * @stack: A pointer to the top of the stack (linked list).
- * 
+ *
  * Return: None (void).
  */
 
