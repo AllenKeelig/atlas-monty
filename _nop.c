@@ -2,13 +2,16 @@
 
 
 /**
- *  get_nop - When no operation present
+ * _nop - Does nothing
  *
- *  @stack: Header of stack
+ * This function serves as a no-operation (NOP) command for the Monty interpreter.
+ * It takes in a stack and line number, but performs no action on them.
+ * It is used when there is no operation associated with a particular instruction.
  *
- *  @line_number: Integer of line numbers
+ * @stack: A double pointer to the top of the stack (linked list).
+ * @line_number: The current line number in the script being interpreted.
  *
- *  Return: Void
+ * Return: None (void).
  */
 
 
