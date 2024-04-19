@@ -10,9 +10,9 @@
 #include <sys/stat.h>
 
 
-int main(int argc, char *argv[])
-void push(stack_t **stack, unsigned int line_number)
-void pall(stack_t **stack, unsigned int line_number)
+int main(int argc, char *argv[]);
+void push(stack_t **stack, unsigned int line_number);
+void pall(stack_t **stack, unsigned int line_number);
 int _isdigit(char *str);
 
 /**
