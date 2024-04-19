@@ -30,13 +30,11 @@ int main(int argc, char *argv[])
 			break;
 		line_count++;
 		operator_array[0] = strtok(str, "\n ");
-		if (operator_array[0] == NULL)
-			get_nop(&head, line_count);
 		else if (strcmp("push", operator_array[0]) == 0)
 		{
 			temp = strtok(NULL, "\n ");
 
-			get_push(&head, line_count, temp);
+			push(&head, line_count, temp);
 		}
 		else if (operator_array[0] != NULL && operator_array[0][0] != '#')
 		{
@@ -50,6 +48,6 @@ int main(int argc, char *argv[])
 		operator_function(&head, line_count);
 		}
 	}
-	fclose(file), free(str), get_free(head);
+	fclose(file), free(str), free(head);
 	return (0);
 }
