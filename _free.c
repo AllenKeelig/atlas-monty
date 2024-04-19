@@ -3,10 +3,12 @@
 /**
  *  get_free - Free stack
  *
+ *  description: function to free memory for functions.
+ * 
  *  @stack: Stack pointer
  *
  *  Return: Void
- *  description: function to free memory for functions.
+ *  
  */
 
 
