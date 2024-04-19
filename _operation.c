@@ -17,7 +17,6 @@ void (*go(char *op_f, unsigned int l, stack_t **stak))(stack_t**, unsigned int)
 
 	instruction_t operation[] = {
 		{"pall", _pall},
-		{"add", _add},
 		{"nop", _nop},
 		{NULL, NULL}
 	};
